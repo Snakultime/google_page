@@ -1,14 +1,12 @@
-From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
-
-# L'Email Viewer qui déchire !
+# La Google Home Page !
 Fait par Axel Ringard
 
 ## Consignes de l'exercice
 
 Je vous invite à (re)consulter les consignes sur le site de <a href="http://www.theodinproject.com/courses/web-development-101/lessons/html-css">The Odin Project</a>.
 
-Pour toutes questions, commentaires, suggestions et dons (espèces, CB, chèques, virements bancaires, nature et crypto-monnaies acceptées), <a href="https://fr.linkedin.com/in/axel-ringard-307865178"> contactez-moi sur LinkedIn </a>.
-vous occupez pas de la page empty_body.html.erb, elle est là parce qu'elle se sentait seule)
+Pour toutes questions, commentaires, suggestions et dons (espèces, CB, chèques, virements bancaires, nature et crypto-monnaies acceptées), <a href="https://fr.linkedin.com/in/axel-ringard-307865178">
+contactez-moi sur LinkedIn </a>.
 
 ## But de l'exercice
 
