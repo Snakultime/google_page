@@ -1,17 +1,64 @@
 #navbar {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  height: 5vh;
+  width: 100vw;
+  color: white;
+}
 
+#navbar ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+#navbar li {
+    margin-left: 1vw;
 }
 
 #center_page {
-
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 90vh;
+  width: 100vw;
+  text-align: center;
 }
 
 #footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
-  background-color: grey;
-  color: white;
-  text-align: center;
+  display: flex;
+  flex-flow: column;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.haut {
+  height: 5vh;
+  width: 100vw;
+  background-color: rgb(242,242,242);
+  text-align: left;
+}
+
+.bas {
+  height: 5vh;
+  width: 100vw;
+  background-color: rgb(242,242,242);
+  display: flex;
+  justify-content: space-between;
+}
+
+.bas ul {
+  display: flex;
+  flex-wrap: nowrap;
+  weight: 50vw;
+}
+
+#footer li {
+    margin-left: 1vw;
 }
