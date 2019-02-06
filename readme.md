@@ -18,4 +18,4 @@ Ce qui aide à comprendre comment placer telle ou telle élément.
 
 Pour le moment c'est du soft pour se remettre sur pied !
 
-<img src="https://media3.giphy.com/media/QHE5gWI0QjqF2/giphy.gif?cid=3640f6095c5afa536a6a62486b02d997" width='150' alt="Ouah t'es chaud pour aller jusqu'à chopé dans le readme des autres, nan je déconne sers-toi. bite" />
+<img src="https://media3.giphy.com/media/QHE5gWI0QjqF2/giphy.gif?cid=3640f6095c5afa536a6a62486b02d997" width='250' alt="Ouah t'es chaud pour aller jusqu'à chopé dans le readme des autres, nan je déconne sers-toi. bite" />
