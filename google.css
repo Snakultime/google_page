@@ -1,10 +1,14 @@
 #navbar {
   position: fixed;
-  margin: 0;
-  padding: 0;
+  top: 0;
+  left: 0;
   height: 5vh;
   width: 100vw;
-  color: white;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
 }
 
 #navbar ul {
@@ -14,16 +18,30 @@
 }
 
 #navbar li {
-    margin-left: 1vw;
+  margin-left: 1vw;
 }
 
 #center_page {
   position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 90vh;
+  top: 30vh;
   width: 100vw;
   text-align: center;
+}
+
+input[type=text]{
+  width: 40%;
+  padding: 8px 12px;
+  box-sizing: border-box;
+}
+
+input[type=text]:hover{
+  box-shadow: 3px;
+}
+
+input[type=submit]{
+  width: 13%;
+  padding: 8px 12px;
+  box-sizing: border-box;
 }
 
 #footer {
@@ -39,26 +57,32 @@ ul {
 }
 
 .haut {
-  height: 5vh;
+  height: 7vh;
   width: 100vw;
+  border: 1px ridge grey;
   background-color: rgb(242,242,242);
-  text-align: left;
 }
 
 .bas {
-  height: 5vh;
+  height: 6vh;
   width: 100vw;
   background-color: rgb(242,242,242);
   display: flex;
   justify-content: space-between;
+  border: 1px ridge grey;
+  border-top: none;
 }
 
 .bas ul {
   display: flex;
   flex-wrap: nowrap;
-  weight: 50vw;
 }
 
 #footer li {
-    margin-left: 1vw;
+  margin-left: 1vw;
+}
+
+#footer a {
+  text-decoration: none;
+  color: grey;
 }
