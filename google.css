@@ -1,3 +1,11 @@
+#wrapper {
+  font-size: small;
+}
+
+ul {
+  list-style-type: none;
+}
+
 #navbar {
   position: fixed;
   top: 0;
@@ -30,18 +38,29 @@
 
 input[type=text]{
   width: 40%;
+  border-style: none;
+  border: 1px solid lightgrey;
   padding: 8px 12px;
-  box-sizing: border-box;
+  margin-top: 1%;
+  box-shadow: 1px 1px 5px lightgrey;
 }
 
 input[type=text]:hover{
-  box-shadow: 3px;
+  box-shadow: 5px 5px 15px grey;
 }
 
 input[type=submit]{
   width: 13%;
   padding: 8px 12px;
-  box-sizing: border-box;
+  margin-top: 2%;
+  margin-left: 0.3%;
+  margin-right: 0.3%;
+  border-style: none;
+}
+
+input[type=submit]:hover{
+  color: black;
+  background-color: lightgrey;
 }
 
 #footer {
@@ -52,19 +71,15 @@ input[type=submit]{
   flex-flow: column;
 }
 
-ul {
-  list-style-type: none;
-}
-
 .haut {
-  height: 7vh;
+  height: 6vh;
   width: 100vw;
   border: 1px ridge grey;
   background-color: rgb(242,242,242);
 }
 
 .bas {
-  height: 6vh;
+  height: 5vh;
   width: 100vw;
   background-color: rgb(242,242,242);
   display: flex;
